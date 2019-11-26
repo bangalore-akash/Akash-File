@@ -1,0 +1,23 @@
+# - Reverse a number
+ 
+ var number = 12345
+  var revNumber = 0;
+
+  while (number > 0) {
+    revNumber = (revNumber * 10) + (number % 10);
+    number = Math.floor(number / 10);
+  }
+ 
+console.log(revNumber); // Output - 54321
+
+----------------------------------------------------------
+# - Some Of Array
+
+var arr = [1,2,3,4,5,6];
+var sum  = 0;
+for(var i = 0; i < arr.length; i++){
+  sum = arr[i] + sum;
+}
+console.log(sum) op - 21 
+
+----------------------------------------------------------

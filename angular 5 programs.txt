@@ -717,7 +717,7 @@ ngAfterContentChecked
 Invoked each time the content of the given component has been checked by the change detection mechanism of Angular.
 
 ngAfterViewInit
-Invoked when the component’s view has been fully initialized.
+Invoked when the componentÂ’s view has been fully initialized.
 
 ngAfterViewChecked
 Invoked each time the view of the given component has been checked by the change detection mechanism of Angular.
